@@ -1,0 +1,19 @@
+//We trained two logistic regression models,one with the actual values and the other with the scaled values and found the accuracy score which was more for scaled data
+
+from sklearn.linear_model import LogisticRegression
+
+lr=LogisticRegression()
+lr_scaled=LogisticRegression()
+
+lr.fit(X_train,y_train)
+lr_scaled.fit(X_train_scaled,y_train)
+
+LogisticRegression()
+
+y_pred=lr.predict(X_test)
+y_pred_scaled=lr_scaled.predict(X_test_scaled)
+
+from sklearn.metrics import accuracy_score
+
+print("Actual",accuracy_score(y_test,y_pred))
+print("Scaled",accuracy_score(y_test,y_pred_scaled))
