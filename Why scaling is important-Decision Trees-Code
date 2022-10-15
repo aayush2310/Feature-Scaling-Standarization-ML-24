@@ -1,0 +1,17 @@
+from sklearn.tree import DecisionTreeClassifier
+
+dt=DecisionTreeClassifier()
+st_scaled=DecisionTreeClassifier()
+
+dt.fit(X_train,y_train)
+dt_scaled.fit(X_train_scaled,t_train)
+
+DecisionTreeClassifier()
+
+y_pred=dt.predict(X_test)
+y_pred_scaled=dt_scaled.predict(X_test_scaled)
+
+print("Actual",accuracy_score(y_test,y_pred))
+print("Scaled",accuracy_score(y_test,y_pred_scaled))
+
+df.describe()
