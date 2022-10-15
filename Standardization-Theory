@@ -1,0 +1,11 @@
+//Also called Z-score Normalization//
+
+let there be given a column of age which i will transform to age'.
+x(i)'=(x(i)-mean)/standard deviation
+So now the new column age' will have mean as 0 and standard deviation as 1.
+
+Geometrically->We plot the graph of age Vs salary of 500 people
+  We did two things:-
+    i)We did mean centric i.e. we moved our origin to the mean of the data points i.e x coordinate is the mean of age and y coordinate is the mean of salary
+    ii)The SD is 1 so we squeezed the data points in the new coordinate axes towards 1 which were farther than 1 distance and spread those data points which were less than 1 distance from the origin.
+
