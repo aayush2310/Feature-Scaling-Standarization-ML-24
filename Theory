@@ -1,0 +1,11 @@
+//Last step of Feature Engineering//
+//Easy step//
+//Most imp. tech of feature scaling-standarization//
+//Feature scaling is a technique to standardize the independent features present int the data in a fixed range//
+//Why Feature Scaling??-->Told earlier-(KNN)
+
+Types of feature Scaling-
+1)Standarization
+2)Normalization
+  a)Min-Max Scalar
+  b)Robust Scalar(Works good on outliers)
