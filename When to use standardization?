@@ -1,0 +1,6 @@
+Apply standardization on the following algorithms for sure:-
+1)K-Means=>Use the Euclidian distance measure
+2)K-Nearest Neighbour=>Measure the distances between pairs of samples and these distances are influenced by the measurement units
+3)Principal Componenet Analysis(PCA)=>Try to get the feature with maximum variance
+4)Artificial Neural Network=>Apply Gradient Descent
+5)Gradient Descent=>Theta calculation becomes faster after feature scaling and the learning rate in the update equation of Stachastic Gradient Descent is the same for every parameter.
